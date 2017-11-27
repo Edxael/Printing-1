@@ -39,9 +39,9 @@
 
 *PageRegion X48MMY300MM/58mm x 10mm:         "<</PageSize[200 200]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
 *DefaultImageableArea: X48MMY300MM
-*ImageableArea X48MMY300MM:              "15 0 150 800"
+*ImageableArea X48MMY300MM:              "15 0 150 300"
 *DefaultPaperDimension: X48MMY300MM
-*PaperDimension X48MMY300MM:             "150 800"
+*PaperDimension X48MMY300MM:             "150 300"
 
 
 

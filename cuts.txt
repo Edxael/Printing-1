@@ -1,3 +1,9 @@
+Pages with Info:
+http://printjs.crabbly.com/#documentation
+https://www.cssscript.com/javascript-library-printing-elements-page-print-js/
+
+
+
 
 
 *OpenUI *PageSize/Media Size: PickOne
