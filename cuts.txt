@@ -1,0 +1,74 @@
+
+
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: X48MMY210MM
+
+
+
+*PageSize X48MMY210MM/58mm x 210mm:         "<</PageSize[100 595]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: X48mmY210mm
+
+*PageRegion X48MMY210MM/58mm x 210mm:         "<</PageSize[100 595]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*DefaultImageableArea: X48MMY210MM
+*ImageableArea X48MMY210MM:              "0 0 150 200"
+*DefaultPaperDimension: X48MMY210MM
+*PaperDimension X48MMY210MM:             "150 200"
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+line 32
+*PageSize X48MMY210MM/58mm x 210mm:         "<</PageSize[136 595]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: X48mmY210mm
+
+*PageRegion X48MMY210MM/58mm x 210mm:         "<</PageSize[164 595]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*DefaultImageableArea: X48MMY210MM
+*ImageableArea X48MMY210MM:              "0 0 136 595"
+*DefaultPaperDimension: X48MMY210MM
+*PaperDimension X48MMY210MM:             "136 595"
+
+
+
+
+
+
+
+*FeedDist 5feed18mm/feed 18mm: ""
+*FeedDist 6feed21mm/feed 21mm: ""
+*FeedDist 7feed24mm/feed 24mm: ""
+*FeedDist 8feed27mm/feed 27mm: ""
+*FeedDist 9feed30mm/feed 30mm: ""
+*FeedDist 10feed33mm/feed 33mm: ""
+*FeedDist 11feed36mm/feed 36mm: ""
+*FeedDist 12feed39mm/feed 39mm: ""
+*FeedDist 13feed42mm/feed 42mm: ""
+
+
+
+
+
+
+
+
+
+
+*MaxMediaWidth:  "150"
+*MaxMediaHeight: "9286"
+*HWMargins:      0 0 0 0
+
+
+
+*DefaultImageableArea: X48MMY210MM
+*ImageableArea X48MMY210MM:              "0 0 150 200"
+*DefaultPaperDimension: X48MMY210MM
+*PaperDimension X48MMY210MM:             "150 200"

@@ -24,29 +24,41 @@
 *VariablePaperSize:     True
 *TTRasterizer:          Type42
 
-
 *OpenUI *PageSize/Media Size: PickOne
 *OrderDependency: 10 AnySetup *PageSize
-*DefaultPageSize: X48MMY300MM
+*DefaultPageSize: X48MMY210MM
 
+*PageSize X48MMY210MM/58mm x 210mm:         "<</PageSize[136 595]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48MMY297MM/58mm x 297mm:         "<</PageSize[136 842]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48MMY3276MM/58mm x 3276mm:       "<</PageSize[136 9286]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
 
-
-*PageSize X48MMY300MM/58mm x 10mm:         "<</PageSize[200 200]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
 *CloseUI: *PageSize
+
 *OpenUI *PageRegion: PickOne
 *OrderDependency: 10 AnySetup *PageRegion
-*DefaultPageRegion: X48mmY300mm
+*DefaultPageRegion: X48mmY210mm
 
-*PageRegion X48MMY300MM/58mm x 10mm:         "<</PageSize[200 200]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
-*DefaultImageableArea: X48MMY300MM
-*ImageableArea X48MMY300MM:              "15 0 150 200"
-*DefaultPaperDimension: X48MMY300MM
-*PaperDimension X48MMY300MM:             "150 200"
+*PageRegion X48MMY210MM/58mm x 210mm:         "<</PageSize[164 595]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48MMY297MM/58mm x 297mm:         "<</PageSize[164 842]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48MMY3276MM/58mm x 3276mm:       "<</PageSize[164 9286]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
 
+*DefaultImageableArea: X48MMY210MM
 
+*ImageableArea X48MMY210MM:              "0 0 136 595"
+*ImageableArea X48MMY297MM:              "0 0 136 842"
+*ImageableArea X48MMY3276MM:             "0 0 136 9286"
 
-*CustomPageSize True: "pop pop pop <</PageSize[8 -2 roll]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
-*ParamCustomPageSize Width:        1 points 48 200
+*DefaultPaperDimension: X48MMY210MM
+
+*PaperDimension X48MMY210MM:             "136 595"
+*PaperDimension X48MMY297MM:             "136 842"
+*PaperDimension X48MMY3276MM:            "136 9286"
+
+*MaxMediaWidth:  "136"
+*MaxMediaHeight: "9286"
+*HWMargins:      0 0 0 0
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width:        1 points 48 136
 *ParamCustomPageSize Height:       2 points 48 9282
 *ParamCustomPageSize WidthOffset:  3 points 0 0
 *ParamCustomPageSize HeightOffset: 4 points 0 0
@@ -60,7 +72,16 @@
 *FeedDist 2feed9mm/feed 9mm: ""
 *FeedDist 3feed12mm/feed 12mm: ""
 *FeedDist 4feed15mm/feed 15mm: ""
-
+*FeedDist 5feed18mm/feed 18mm: ""
+*FeedDist 6feed21mm/feed 21mm: ""
+*FeedDist 7feed24mm/feed 24mm: ""
+*FeedDist 8feed27mm/feed 27mm: ""
+*FeedDist 9feed30mm/feed 30mm: ""
+*FeedDist 10feed33mm/feed 33mm: ""
+*FeedDist 11feed36mm/feed 36mm: ""
+*FeedDist 12feed39mm/feed 39mm: ""
+*FeedDist 13feed42mm/feed 42mm: ""
+*FeedDist 14feed45mm/feed 45mm: ""
 *CloseUI: *FeedDist
 
 
