@@ -39,13 +39,13 @@
 
 *PageRegion X48MMY300MM/58mm x 10mm:         "<</PageSize[200 200]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
 *DefaultImageableArea: X48MMY300MM
-*ImageableArea X48MMY300MM:              "15 0 150 200"
+*ImageableArea X48MMY300MM:              "15 0 150 800"
 *DefaultPaperDimension: X48MMY300MM
-*PaperDimension X48MMY300MM:             "150 200"
+*PaperDimension X48MMY300MM:             "150 800"
 
 
 
-*CustomPageSize True: "pop pop pop <</PageSize[8 -2 roll]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
 *ParamCustomPageSize Width:        1 points 48 200
 *ParamCustomPageSize Height:       2 points 48 9282
 *ParamCustomPageSize WidthOffset:  3 points 0 0
